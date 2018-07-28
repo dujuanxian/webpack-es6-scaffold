@@ -1,3 +1,10 @@
 import './../style.css';
 
-document.write("hello world");
+const a = "hello";
+const b = ["world", "girl"];
+
+const log = (...values) => {
+  document.write(values);
+};
+
+log(a, b);
