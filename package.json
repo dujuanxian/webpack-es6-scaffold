@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --devtool eval --progress --colors --mode development --open --hot",
     "build": "webpack --mode development",
-    "build-prod": "webpack --mode production"
+    "build-prod": "webpack --mode production",
+    "test": "./node_modules/.bin/karma start"
   },
   "dependencies": {},
   "devDependencies": {
@@ -15,6 +16,12 @@
     "babel-preset-env": "^1.7.0",
     "css-loader": "^1.0.0",
     "html-webpack-plugin": "^3.2.0",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.5",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.2",
+    "karma-webpack": "^3.0.0",
     "style-loader": "^0.21.0",
     "webpack": "^4.16.3",
     "webpack-cli": "^3.1.0",

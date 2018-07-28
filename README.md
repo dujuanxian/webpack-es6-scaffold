@@ -3,6 +3,9 @@
 ### Start project:
 npm start
 
+### Run test:
+npm test
+
 ### Build project in DEV:
 npm run build
 

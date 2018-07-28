@@ -1,10 +1,12 @@
 import './../style.css';
-
-const a = "hello";
-const b = ["world", "girl"];
+import {sqrt} from './math';
 
 const log = (...values) => {
-  document.write(values);
+  const [a, b] = values;
+  document.writeln(a);
+  document.writeln('</br>');
+  document.writeln(b);
+  document.writeln('</br>');
 };
 
-log(a, b);
+log(sqrt, sqrt(10));
