@@ -10,3 +10,7 @@ const log = (...values) => {
 };
 
 log(sqrt, sqrt(10));
+
+class Test {
+  value;
+}
